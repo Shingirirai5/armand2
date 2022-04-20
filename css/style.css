@@ -402,7 +402,7 @@ header {
 }
 
 .home1 .caption .txt3 {
-    color: #5f5f5f;
+    color: #bdbcbc;
     font-size: 14px;
     padding-bottom: 15px;
 }
@@ -422,7 +422,7 @@ header {
 
 .home2 .txt1 {
     font-size: 14px;
-    color: #8f8f8f;
+    color: #bcbcbc;
     padding-bottom: 40px;
 }
 
@@ -594,8 +594,9 @@ header {
 
 .event1-text .txt3 {
     font-size: 14px;
-    color: #5f5f5f;
+    color: #c3c2c2;
     padding-bottom: 30px;
+    font-weight: 120;
 }
 
 .event1-text .txt4 {
@@ -2710,6 +2711,7 @@ a.dropdown-toggle {
     margin: 45px 0 30px;
     padding: 0;
     list-style: none;
+    margin-bottom: 0;
 }
 
 .social-footer li {
@@ -2808,7 +2810,7 @@ a.dropdown-toggle {
 }
 
 .footborder {
-    margin-top: 35px;
+    margin-top: 5px;
     width: 50%;
     margin-left: 25%;
     color: #9e9e9e;
@@ -3018,12 +3020,12 @@ h2 {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0;
-    padding-bottom: 25px;
+    padding-bottom: 0px;
     font-size: 40px;
     font-weight: 700;
     color: #feb06a;
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .title1.right {
