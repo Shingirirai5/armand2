@@ -238,6 +238,7 @@ a:hover {
     float: left;
 }
 
+
 .side-img {
     position: absolute;
     top: 0;
@@ -811,6 +812,10 @@ Upcoming Album
 
 .upcoming-album {
     padding: 93px 70px 93px 20px;
+    background: transparent;
+}
+.upcoming-album:hover {
+    background: gray;
 }
 
 .upcoming-album .album-art {
@@ -1353,6 +1358,7 @@ Products
     position: relative;
     background-color: #111111;
     margin-top: 0%;
+    margin-bottom: 0px;
 }
 
 .product {
@@ -1360,6 +1366,7 @@ Products
     margin-bottom: 55px;
     border-color: black;  
     border-width: 0cm;
+    margin-bottom: 0px;
 }
 
 .product-thumb {
@@ -1484,6 +1491,28 @@ Latest Album
 
 .latest-album-carousel-wrap {
     width: 100%;
+}
+
+.latest-album .caption {
+    text-transform: uppercase;
+    padding-top: 20px;
+    margin-left: 5px;
+}
+
+.latest-album .caption .txt1 {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Oswald';
+    font-weight: 500;
+    padding-bottom: 10px;
+    margin-left: 5px;
+}
+
+.latest-album .caption .txt2 {
+    color: #5f5f5f;
+    font-size: 15px;
+    margin-left: 5px;
+    font-weight: 500;
 }
 
 .latest-album-section {
@@ -3062,9 +3091,10 @@ Album
 /*** Track Section ***/
 
 .tracks-section {
-    background-image: url(../images/bg/album-tracks-bg.jpg);
+    background: transparent;
     background-position: center center;
     background-size: cover;
+    margin-top: 0px;
 }
 
 .tracks-section .overlay {
@@ -3153,9 +3183,10 @@ Album
 /*** Purchase From ***/
 
 .purchase-section {
-    background-image: url(../images/bg/purchase-bg.jpg);
+    background: transparent;
     background-position: center center;
     background-size: cover;
+    margin-bottom: 0;
 }
 
 .purchase-section .overlay {
@@ -3182,11 +3213,13 @@ Album
     color: #ffffff;
 }
 
+
 .purchase-button-wrap .btn.btn-border.btn-white:hover {
-    background-color: #feb06a;
+    background-color: black;
     color: #ffffff;
     border-color: #feb06a;
 }
+
 
 /*--------------------------------
 Single Concert Page
