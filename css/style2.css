@@ -323,6 +323,7 @@ Button
     background-color: transparent;
     color: #ffffff !important;
     text-shadow: 2px 0px 2px rgba(150, 150, 150, 1);
+    box-shadow: 1px 1px 3px rgba(125, 128, 128, 1);
 }
 
 .btn.btn-border.btn-white:focus,
@@ -399,6 +400,7 @@ Button
 .btn.btn-white.btn-simple:active,
 .btn.btn-white.btn-simple:active:focus {
     color: #feb06a !important;
+    text-shadow: 2px 0px 2px rgba(150, 150, 150, 1);
 }
 
 .btn.btn-white.btn-simple:focus .fa,
