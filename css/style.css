@@ -42,7 +42,7 @@ a:hover {
 }
 
 body {
-    background: #202020;
+    background: black;
     border: 0;
     color: #dddddd;
     min-width: 320px;
@@ -560,7 +560,7 @@ header {
 
 .event1 {
     position: relative;
-    background: url(../images/body-bg.jpg) #141414;
+    background: url(../images/body-bg.jpg) black;
     box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.7);
     margin-bottom: 80px;
 }
@@ -661,7 +661,7 @@ header {
 
 .poster figure {
     margin: 0;
-    background: #000;
+    background: black;
     position: relative;
     box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.7);
 }
@@ -1524,7 +1524,7 @@ header {
 
 .select1_inner {
     position: relative;
-    background: #202020;
+    background: black;
     height: auto;
     position: relative;
 }
@@ -2720,7 +2720,7 @@ a.dropdown-toggle {
     position: relative;
     overflow: hidden;
     border-radius: 50%;
-    background: #202020;
+    background: black;
 }
 
 .social-footer li:first-child {
@@ -2754,7 +2754,7 @@ a.dropdown-toggle {
     width: 6px;
     top: -4px;
     bottom: -4px;
-    background: #202020;
+    background: black;
     position: absolute;
     z-index: -1;
     left: 50%;

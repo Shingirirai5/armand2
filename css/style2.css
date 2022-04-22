@@ -186,7 +186,7 @@ a:hover {
     left: 50%;
     bottom: 0;
     margin-left: -50px;
-    background-color: #111111;
+    background-color:black;
 }
 
 .text-white .section-header:after,
@@ -322,8 +322,8 @@ Button
 .btn.btn-border.btn-white {
     background-color: transparent;
     color: #ffffff !important;
-    text-shadow: 2px 0px 2px rgba(150, 150, 150, 1);
-    box-shadow: 1px 1px 3px rgba(125, 128, 128, 1);
+    text-shadow: 2px 0px 2px rgb(22, 21, 21);
+    box-shadow: 2px 0px 2px rgb(22, 21, 21);
 }
 
 .btn.btn-border.btn-white:focus,
@@ -392,7 +392,7 @@ Button
 
 .btn.btn-white.btn-simple {
     color: #ffffff !important;
-    text-shadow: 2px 0px 2px rgba(150, 150, 150, 1);
+    text-shadow: 2px 0px 2px rgb(22, 21, 21);
 }
 
 .btn.btn-white.btn-simple:focus,
@@ -400,7 +400,7 @@ Button
 .btn.btn-white.btn-simple:active,
 .btn.btn-white.btn-simple:active:focus {
     color: #feb06a !important;
-    text-shadow: 2px 0px 2px rgba(150, 150, 150, 1);
+    text-shadow: 2px 0px 2px rgb(22, 21, 21);
 }
 
 .btn.btn-white.btn-simple:focus .fa,
@@ -761,7 +761,7 @@ Banner
     line-height: 1;
     margin-top: 0;
     margin-bottom: 5px;
-    text-shadow: 2px 0px 2px rgba(150, 150, 150, 1);
+    text-shadow: 2px 0px 2px rgb(22, 21, 21);
 }
 
 .banner-title {
@@ -769,7 +769,7 @@ Banner
     margin-top: 0;
     margin-bottom: 30px;
     line-height: 1;
-    text-shadow: 2px 0px 2px rgba(150, 150, 150, 1);
+    text-shadow: 2px 0px 2px rgb(22, 21, 21);
 }
 
 .banner-slider .owl-prev,
